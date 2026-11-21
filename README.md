@@ -1,8 +1,12 @@
-<img src="assets/logo.png" width="88" height="88" alt="Blyx Conformal logo">
+<img src="assets/logo.png" width="88" height="88" alt="A snowy owl cups its speckled wings around its body.">
 
 # Blyx Conformal
 
 Calibrate a regression interval from held-out errors and measure coverage on a separate test set. Take a fixed regression model’s errors on a calibration set, then attach an interval to each new prediction. The calibration rank uses exact integer arithmetic. Selection works over the input vectors without sorting or allocating a second score array.
+
+## Editor extension
+
+Install **RahulChaube.blyx-conformal** to run the worked example and use the framework’s function completions in a Blyx file. Open an empty `.blyx` file, enter `blyx-conformal-demo`, then choose **Blyx: Run File**. [Editor downloads](https://www.blyx-lang.space/packages/conformal#editor) · [Download the extension](https://github.com/Rahulchaube1/blyxxxx/releases/download/framework-editors-v0.1.0/blyx-conformal-0.1.0.vsix) · [Starter with framework source](https://github.com/Rahulchaube1/blyxxxx/releases/download/framework-editors-v0.1.0/blyx-conformal-starter-0.1.0.zip)
 
 ## Use it in a project
 

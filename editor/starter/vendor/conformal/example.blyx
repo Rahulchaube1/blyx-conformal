@@ -1,0 +1,8 @@
+use conformal;
+fn main() {
+    let calibration = cf_calibrate([10, 12, 7, 11], [10, 10, 10, 10], 3, 5);
+    let interval = cf_interval(20.0, at(calibration, 0));
+    println!(at(calibration, 0));
+    println!(at(interval, 0));
+    println!(at(interval, 1));
+}
